@@ -1,0 +1,233 @@
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f4e8;
+}
+
+.container {
+    max-width: 1880px;
+    padding-inline: auto;
+    margin-inline: 20px;
+}
+
+/* NAV SECTION */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px;
+    margin-top: 20px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button.nav-btn {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #FFA500,#ff9933,#FF033E);
+    color: white;
+    border: none;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;;
+    color: black;
+    cursor: pointer;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 18px;
+}
+
+.join  a {
+    text-decoration: none;
+    color: black;
+}
+
+.join-btn {
+    padding: 24px 35px;
+    background: #2B6AD0;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.burger {
+    display: none;
+}
+
+
+.burger div {
+    width: 25px;
+    height: 5px;
+    background-color: black;
+    margin: 5px;
+}
+
+
+/* HERO SECTION */
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding: 100px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.left-section .header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.left-section .header h1 {
+    font-size: 65px;
+}
+
+.left-section .header p {
+    font-size: 22px;
+    color: 	#454545;
+    line-height: 1.5;
+}
+
+.left-section .inputs {
+    display: flex;
+}
+
+.left-section .inputs .hero-btn {
+    position: relative;
+    left: 15px;
+}
+
+.left-section .inputs input {
+    padding: 24px 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 18px;
+}
+
+.left-section .check-mark {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left-section .check-mark p {
+    font-size: 18px;
+    color: #454545;
+}
+
+
+.right-section .image img {
+    width: 400px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    position: absolute;
+    width: 65%;
+}
+
+.image img:first-child {
+    position: relative;
+}
+
+.image img:nth-child(2) {
+    z-index: -1;
+    transform: rotate(-15deg);
+}
+
+.image img:nth-child(3) {
+    z-index: -2;
+    transform: rotate(-30deg);
+}
+
+.image img:nth-child(4) {
+    z-index: -3;
+    transform: rotate(-45deg);
+}
+
+
+/* CONTACT SECTION */
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 260px;
+}
+
+.contact .social {
+    display: flex;
+    gap: 2rem;
+    font-size: 22px;
+}
+
+
+.contact .social a {
+    color: #454545;
+    text-decoration: none;
+}
+
+.contact .support {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact .support p {
+    font-size: 20px;
+}
+
+.contact .support h6 {
+    font-size: 20px;
+}
